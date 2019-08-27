@@ -9,6 +9,7 @@ class Anagram
       @word.split("").sort == word_from_array.split("").sort 
       #iterates through word_array and compares to word.
       #[1, 3, 2].sort == [3, 2, 1].sort => true (remember!!)
+      #("") will split by letter
 
     end
     end
